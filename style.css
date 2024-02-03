@@ -1,0 +1,91 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e5f7;
+  opacity: 0.9;
+  background-image: radial-gradient(#444cf7 1.5px, #e5e5f7 1.5px);
+  background-size: 30px 30px;
+}
+
+.card {
+  background-color: #fff;
+  min-width: 35rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.top {
+  height: 10rem;
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #e5e5f7 10px
+    ),
+    repeating-linear-gradient(#444cf755, #444cf7);
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.pic {
+  width: 15rem;
+  height: 13rem;
+  border-radius: 50%;
+  margin-top: -6rem;
+  z-index: 1;
+  border: #fff solid 0.5rem;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.postion {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  border-top: 0.1rem solid gray;
+  margin-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-top: 1rem;
+}
+
+.coulmn {
+  padding: 2rem 1.5rem;
+  flex: 1;
+  text-align: center;
+}
+
+.coulmn:nth-child(2) {
+  border-right: 0.1rem solid gray;
+  border-left: 0.1rem solid gray;
+}
+
+.icon_pic {
+  width: 2rem;
+  height: 2rem;
+}
+
+.username {
+  font-size: 1.2rem;
+}
